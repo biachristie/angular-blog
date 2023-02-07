@@ -1,27 +1,35 @@
-# AngularBlog
+<h1 align="center">📝  Desafio de projeto  "Criando um Blog com Angular" </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+<div align="center">
 
-## Development server
+![code](https://img.shields.io/badge/Code-TypeScript-3178C6.svg)
+[![made-with-angular](https://img.shields.io/badge/Made%20with-Angular%20CLI-DD0031.svg)](https://github.com/angular/angular-cli)
+![angular-version](https://img.shields.io/badge/version-15.0.4-0671af.svg)
+![ide](https://img.shields.io/badge/Editor-VSCode%201.74.3-3cb48c.svg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[![GitHub stars](https://img.shields.io/github/stars/biachristie/angular-blog.svg?style=social&label=Star&maxAge=2592000)](https://github.com/biachristie/angular-blog/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/biachristie/angular-blog.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/biachristie/angular-blog/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/biachristie/angular-blog.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/biachristie/angular-blog/network/members)
 
-## Code scaffolding
+</div>
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="justify">
 
-## Build
+&ensp;&ensp;Esse projeto foi desenvolvido com base no conteúdo ensinado em aula do Prof. Felipe Aguiar no **Bootcamp Cloud Full Stack - Walburg Pincus**, oferecido gratuitamente pela **Digital Innovation One** (DIO). O objetivo era construir uma página web contendo uma seção de artigos. A construção do projeto visava praticar os conceitos aprendidos durante o curso do *framework* Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</p>
 
-## Running unit tests
+<br>
+<h2> 📌 Conceitos abordados </h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [x] Fundamentos do _Angular Framework_
 
-## Running end-to-end tests
+<br>
+<h2> 🛠️ To Do </h2>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [x] Conectar informações da página inicial às contidas no arquivo _dataFake_
+- [x] Adicionar sessão _footer_
+- [ ] Adicionar versão _light mode_
+- [ ] Adicionar sessão de comentários à página individual dos artigos
+- [ ] Adicionar responsividade às páginas
