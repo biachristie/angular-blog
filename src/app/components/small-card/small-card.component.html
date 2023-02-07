@@ -1,0 +1,15 @@
+<div class="container__small-card">
+    <div class="container__small-card-picture">
+        <img src="{{ pictureCover }}" alt="">
+    </div>
+    <div class="container__small-card-title">
+        <h1>{{ cardTitle }}</h1>
+    </div>
+    <div class="container__small-card-date">
+        <img src="../../../assets/images/date_icon.png" alt="date">
+        <span>{{ contentDate }}</span>
+    </div>
+    <div class="container__small-card-button">
+        <a [routerLink]="['content', id]"><button>Leia Mais</button></a>
+    </div>
+</div>

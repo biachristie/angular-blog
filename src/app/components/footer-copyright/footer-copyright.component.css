@@ -1,0 +1,38 @@
+.container {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    border-right: 1px solid;
+}
+
+.container__footer > img {
+    height: 21px;
+    margin-right: 5px;
+}
+
+.container__footer-title > span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container__footer-bullet {
+    color: #F05454;
+}
+
+.container__footer-copyright {
+    display: flex;
+    align-items: center;
+}
+
+.container__footer-copyright > span {
+    font-size: 11px;
+    padding-left: 15px;
+}

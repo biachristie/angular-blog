@@ -1,0 +1,83 @@
+* {
+    background-color: #ddd;
+}
+
+.container__footer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container__footer-newsletter {
+    margin-right: 20px;
+}
+
+.container__footer-newsletter > h3 {
+    color: #F05454;
+}
+
+.container__footer-newsletter > span {
+    color: #696969;
+    font-size: 14px;
+}
+
+.container__footer-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__footer-email > span {
+    color: #696969;
+    font-size: 11px;
+    margin: 0 0 5px 14px;
+}
+
+.container__footer-email > div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container__footer-email > div > button {
+    font-weight: 700;
+    border: none;
+    border-radius: 16px;
+    padding: 9px 20px;
+    background-color: #696969;
+    cursor: pointer;
+    outline: none;
+}
+
+.container__footer-email > div > button:active {
+    transform: translateY(2px);
+}
+
+.container__footer-email-input {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #c5c5c5;
+    border-radius: 20px;
+    padding: 9px 10px;
+    margin-right: 8px;
+}
+
+.container__footer-email-input > input {
+    background-image: url('../../../assets/images/email_icon.png');
+    background-size: 17px;
+    background-position: 0px 1px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: #f05454cb;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.container__footer-email-input > input:focus {
+    outline: none;
+}

@@ -1,0 +1,29 @@
+<app-menu-title></app-menu-title>
+<div class="container__articles">
+    <div class="container__articles-main">
+        <ng-container *ngFor="let item of items; let i = index">
+            <ng-container *ngIf="i == 0">
+                <app-big-card
+                    [id]="item.id"
+                    [pictureCover]="item.pictureCover"
+                    [cardTitle]="item.title"
+                    [cardDescription]="item.subtitle"
+                ></app-big-card>
+            </ng-container>
+        </ng-container>
+    </div>
+    <div class="container__articles-others">
+        <ng-container *ngFor="let item of items; let i = index">
+            <ng-container *ngIf="i > 0">
+                <app-small-card
+                    [id]="item.id"
+                    [pictureCover]="item.pictureCover"
+                    [cardTitle]="item.title"
+                    [contentDate]="item.date"
+                ></app-small-card>
+            </ng-container>
+        </ng-container>
+    </div>
+</div>
+<app-footer-newsletter></app-footer-newsletter>
+<app-footer-copyright></app-footer-copyright>

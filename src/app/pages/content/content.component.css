@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__content-top {
+    width: 70%;
+    margin-top: 20px;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__content-picture > img {
+    height: 500px;
+    min-height: 400px;
+    border-radius: 5px;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.container__content-title {
+    font-size: x-large;
+    text-align: center;
+    width: 85%;
+    margin-top: 30px;
+}
+
+.container__content-subtitle {
+    width: 75%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.container__content-subtitle > h3 {
+    color: #c5c5c5;
+}
+
+.container__content-info {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container__content-author {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__content-author > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin: 12px;
+}
+
+.container__content-author > span, .container__content-date > span {
+    font-size: 14px;
+}
+
+.container__content-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__content-date > img {
+    width: 23px;
+    margin-right: 5px;
+}
+
+.container__content-other {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container__content-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+}
+
+.container__content-stats > img {
+    width: 23px;
+    margin-right: 15px;
+}
+
+#heart_icon {
+    height: 27px;
+    width: 27px;
+}
+
+.container__content-tags {
+    display: inline-flex;
+    align-items: center;
+}
+
+.container__content-tags > img {
+    width: 23px;
+    margin-left: 15px;
+}
+
+.container__content-tags > button {
+    color: #F05454;
+    font-size: 13px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.container__content-description {
+    width: 70%;
+    margin: 50px 0 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid;
+}
+
+.container__content-description > p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.container__content-comments {
+    width: 70%;
+    margin: 15px 0;
+}
+
+.container__content-comments > span {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}

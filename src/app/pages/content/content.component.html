@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="container__content-top">
+        <div class="container__content-picture">
+            <img src="{{ pictureCover }}" alt="">
+        </div>
+        <div class="container__content-title">
+            <h1>{{ contentTitle }}</h1>
+        </div>
+        <div class="container__content-subtitle">
+            <h3>{{ contentSubtitle }}</h3>
+        </div>
+        <div class="container__content-info">
+            <div class="container__content-author">
+                <img src="{{ authorPhoto }}" alt="{{ contentAuthor }}">
+                <span>{{ contentAuthor }}</span>
+            </div>
+            <div class="container__content-date">
+                <img src="../../../assets/images/date_icon.png" alt="{{ contentAuthor }}">
+                <span>{{ contentDate }}</span>
+            </div>
+        </div>
+        <div class="container__content-other">
+            <div class="container__content-stats">
+                <img id="heart_icon" src="assets/images/heart_icon.png" alt="">
+                <img src="assets/images/comments_icon.png" alt="">
+            </div>
+            <div class="container__content-tags">
+                <img src="assets/images/tag_icon.png" alt="">
+                <button disabled="disabled">Tag</button>
+                <button disabled="disabled">Tag</button>
+            </div>
+        </div>
+    </div>
+    <div class="container__content-description" [innerHTML]="contentDescription | safeHtml "></div>
+    <div class="container__content-comments">
+        <span>Comments</span>
+    </div>
+</div>
